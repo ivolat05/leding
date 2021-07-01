@@ -25,8 +25,8 @@ window.addEventListener('wheel', function (e) {
         if (x > 0) {
             console.log(x)
             i -= 40;
-            img.style.transform = 'translateY( -' + i + '%)';
-            img12.style.transform = 'translateY( -' + i + '%)';
+            img.style.transform = 'translateY( ' + i + '%)';
+            img12.style.transform = 'translateY( ' + i + '%)';
             img2.style.transform = 'translateY( -' + i + '%)';
             img22.style.transform = 'translateY( -' + i + '%)';
             img3.style.transform = 'translateY( ' + i + '%)';
@@ -50,7 +50,7 @@ window.addEventListener('touchmove', function (e) {
             x++;
         }
     } else {
-        if (x > -1) {
+        if (x > 0) {
             i -= 10;
             img.style.transform = 'translateY( -' + i + '%)';
             img12.style.transform = 'translateY( -' + i + '%)';
