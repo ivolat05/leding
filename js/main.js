@@ -68,7 +68,7 @@ document.addEventListener("touchstart", function (e) {
 document.addEventListener("touchmove", function (e) {
     if (event) {
         let start = e.touches[0].pageY - event.touches[0].pageY;
-        if (start > 0) {
+        if (start < 0) {
             if (x < 5) {
                 i += 40;
                 img.style.transform = 'translateY( ' + i + '%)';
@@ -97,7 +97,7 @@ document.addEventListener("touchmove", function (e) {
 document.addEventListener("touchmove", function (e) {
     if (event) {
         let start = e.touches[0].pageY - event.touches[0].pageY;
-        if (start > 0) {
+        if (start < 0) {
             if (y < 24) {
                 y += 1;
                 if (y > 14) {
