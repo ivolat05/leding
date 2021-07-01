@@ -28,6 +28,29 @@ a {
 
 
 /*-----------block-----------*/
+.presentation {
+    max-width: 1162px;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 40px auto;
+    padding: 0 10px;
+    transition: 1s;
+    position: relative;
+    padding-top: 170px;
+}
+
+.block {
+    transition: 1s;
+
+}
+
+.book {
+    overflow: hidden;
+    height: 660px;
+}
+
+
+
 .one__wrapper {
     display: flex;
     justify-content: center;
@@ -288,6 +311,12 @@ a {
         justify-content: space-evenly;
     }
 
+
+
+    .presentation p {
+        margin-top: -50px;
+    }
+
     .one__conteiner-box-1::before,
     .one__conteiner-box-2::before {
         overflow: hidden;
@@ -378,9 +407,38 @@ a {
     }
 }
 
+
+
 @media(max-width: 580px) {
+    .conteiner {
+        padding: 52px 10px
+    }
+
+    .one__box-content h1 {
+        font-size: 43px;
+        line-height: 37px;
+    }
+
+    .one__box-content p {
+        font-size: 17px;
+        line-height: 74px;
+        top: 0px;
+        left: 97px;
+    }
+
+    .one__box-content p::before {
+        top: 10px;
+        left: -58px;
+    }
+
+    .presentation p {
+        margin-top: -94px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
     .one__wrapper-litt-3 {
-        top: 671px;
+        top: 486px;
     }
 
     .one__wrapper {
@@ -392,7 +450,7 @@ a {
         margin: 0 auto 40px;
 
         position: relative;
-        top: 397px;
+        top: 312px;
     }
 
     .one__wrapper-conteiner {
@@ -401,7 +459,7 @@ a {
         height: 399px;
 
         position: relative;
-        top: -328px;
+        top: -308px;
     }
 
     .one__conteiner-box-2 p {
@@ -409,7 +467,7 @@ a {
     }
 
     .block__wrapp-btn {
-        margin: 50px auto 0;
+        margin: -95px auto 0;
     }
 }
 
@@ -456,5 +514,28 @@ a {
 
     .one__conteiner-box-1::after {
         bottom: 73px;
+    }
+
+    .img__1-2 {
+        top: -270px;
+    }
+
+    .img__2 {
+        top: 40px;
+    }
+
+    .img__2-2 {
+        top: 439px;
+    }
+
+
+    .img__3 {
+        width: 100%;
+        top: 147px;
+    }
+
+    .img__3-2 {
+        width: 100%;
+        top: -160px;
     }
 }
