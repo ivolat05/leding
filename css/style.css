@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'spaceland_ten_oblique';
+    src: url('../Webfonts/Spaceland-TenOblique.woff2') format('WOFF2'),
+        url('../Webfonts/Spaceland-TenOblique.woff') format('WOFF'),
+        url('../Webfonts/Spaceland-TenOblique.eot') format('EOT'),
+        url('../Webfonts/Spaceland-TenOblique.svg') format('SVG');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'spaceland_ten_oblique';
+}
+
+a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
+
+.conteiner {
+    max-width: 1152px;
+    margin: 0 auto;
+
+}
+
+/*-----------block-----------*/
+.one__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    background: #f3f2f2;
+}
+
+.conteriner {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.block__wrapp {
+    position: relative;
+}
+
+.one {
+    margin-top: 25px;
+}
+
+.one__wrapper-litt-1,
+.one__wrapper-litt-2,
+.one__wrapper-litt-3 {
+    font-size: 72px;
+    line-height: 70px;
+    color: #F59E9C;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -95px;
+}
+
+
+
+.one__wrapper-litt-2 {
+    color: #42117A;
+    left: 100%;
+}
+
+.one__wrapper-litt-3 {
+    color: #F59E9C;
+    top: 536px;
+    left: 100%;
+}
+
+.one__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 920px;
+    margin: 111px auto 0;
+}
+
+.one__wrapper-box {
+    margin-top: 95px;
+}
+
+.one__box-content {
+    position: relative;
+}
+
+.one__box-content h1 {
+    display: inline-block;
+    font-size: 83px;
+    line-height: 81px;
+    color: #360973;
+}
+
+.one__box-content p {
+    font-size: 34px;
+    line-height: 74px;
+    letter-spacing: 10px;
+    color: #F59E9C;
+
+    display: inline-block;
+    position: absolute;
+    top: 76px;
+    left: 186px;
+    transform: rotate(-90deg);
+}
+
+.one__box-content p::before {
+    content: url('../images/text__line.png');
+    display: inline-block;
+    transform: rotate(90deg);
+    padding-right: 20px;
+    position: absolute;
+    top: 14px;
+    left: -64px;
+
+}
+
+.one__box-btn {
+    margin-top: 32px;
+    font-size: 37px;
+    letter-spacing: 10px;
+    display: inline-block;
+    padding: 14px 69px 17px 96px;
+
+    border-radius: 29px;
+    background-color: #bdb2cb;
+    box-shadow: 5.592px 8.29px 23.76px 0.24px rgba(0, 0, 0, 0.26);
+
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.one__wrapper-conteiner {
+    display: flex;
+}
+
+.one__wrapper-conteiner p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #421079;
+}
+
+
+.one__conteiner-box-1 {
+    width: 292px;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+#img__1 {
+    position: absolute;
+    top: 76px;
+}
+
+.one__conteiner-box-1 span {
+    font-size: 249px;
+    line-height: 242px;
+    color: #421079;
+    position: absolute;
+    top: -21px;
+    right: 0;
+}
+
+.one__conteiner-box-1 p {
+    padding-left: 30px;
+}
+
+.one__conteiner-box-1::before {
+    content: url('../images/line__2.png');
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.one__conteiner-box-1::after {
+    content: url('../images/line__3.png');
+    position: absolute;
+    bottom: -44px;
+    right: 54px;
+}
+
+
+.one__conteiner-box-2::before {
+    content: url('../images/line__2.png');
+    position: absolute;
+    top: -5px;
+    right: 0;
+    z-index: 1;
+}
+
+.one__conteiner-box-2 span {
+    font-size: 176px;
+    line-height: 171px;
+    color: #421079;
+    position: absolute;
+    top: 242px;
+    right: 0;
+    z-index: 0;
+}
+
+.one__conteiner-box-2 {
+    display: flex;
+    margin-bottom: -60px;
+}
+
+
+.one__conteiner-box-2 p {
+    padding-left: 10px;
+    margin: auto 0 0 0;
+}
+
+.one__conteiner-box-3 {
+    position: relative;
+}
+
+#img__3 {
+    position: absolute;
+    top: 220px;
+}
+
+
+.one__conteiner-box-2 {
+    width: 201px;
+    position: relative;
+}
+
+#img__2 {
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+
+.one__conteiner-inner img {}
+
+.block__wrapp-btn {
+    border: none;
+    outline: none;
+    background: #f3f2f2;
+    cursor: pointer;
+    display: block;
+    margin: 128px auto 0;
+}
