@@ -11,11 +11,9 @@ window.addEventListener('wheel', function (e) {
     if (e.deltaY == 100) {
         if (x < 5) {
             i += 40;
-            console.log(x)
             img.style.transform = 'translateY( ' + i + '%)';
             img12.style.transform = 'translateY( ' + i + '%)';
             img2.style.transform = 'translateY( -' + i + '%)';
-
             img22.style.transform = 'translateY( -' + i + '%)';
             img3.style.transform = 'translateY( ' + i + '%)';
             img32.style.transform = 'translateY( ' + i + '%)';
@@ -23,7 +21,6 @@ window.addEventListener('wheel', function (e) {
         }
     } else {
         if (x > 0) {
-            console.log(x)
             i -= 40;
             img.style.transform = 'translateY( ' + i + '%)';
             img12.style.transform = 'translateY( ' + i + '%)';
@@ -37,30 +34,12 @@ window.addEventListener('wheel', function (e) {
 })
 
 window.addEventListener('touchmove', function (e) {
-    if (e.pageY == 100) {
-        if (x < 4) {
-            i += 10;
-            img.style.transform = 'translateY( -' + i + '%)';
-            img12.style.transform = 'translateY( -' + i + '%)';
-            img2.style.transform = 'translateY( -' + i + '%)';
-
-            img22.style.transform = 'translateY( -' + i + '%)';
-            img3.style.transform = 'translateY( -' + i + '%)';
-            img32.style.transform = 'translateY( -' + i + '%)';
-            x++;
-        }
-    } else {
-        if (x > 0) {
-            i -= 10;
-            img.style.transform = 'translateY( -' + i + '%)';
-            img12.style.transform = 'translateY( -' + i + '%)';
-            img2.style.transform = 'translateY( -' + i + '%)';
-            img22.style.transform = 'translateY( -' + i + '%)';
-            img3.style.transform = 'translateY( -' + i + '%)';
-            img32.style.transform = 'translateY( -' + i + '%)';
-            x--;
-        }
-    }
-
-
+    i += 10;
+    img.style.transform = 'translateY( -' + i + '%)';
+    img12.style.transform = 'translateY( -' + i + '%)';
+    img2.style.transform = 'translateY( -' + i + '%)';
+    img22.style.transform = 'translateY( -' + i + '%)';
+    img3.style.transform = 'translateY( -' + i + '%)';
+    img32.style.transform = 'translateY( -' + i + '%)';
+    x++;
 })
