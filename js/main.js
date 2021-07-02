@@ -11,8 +11,9 @@ let i = 0;
 let x = 0;
 let y = 0;
 window.addEventListener('wheel', function (e) {
-    if (e.deltaY == 100) {
+    if (e.deltaY >= 0) {
         if (x < 5) {
+            console.log(x)
             i += 40;
             img.style.transform = 'translateY( ' + i + '%)';
             img12.style.transform = 'translateY( ' + i + '%)';
@@ -37,7 +38,7 @@ window.addEventListener('wheel', function (e) {
 })
 let w = 0;
 window.addEventListener('wheel', function (e) {
-    if (e.deltaY == 100) {
+    if (e.deltaY >= 0) {
         if (y < 24) {
             y += 1;
             if (y > 14) {
