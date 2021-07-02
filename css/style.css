@@ -34,13 +34,13 @@ a {
     line-height: 20px;
     margin: 40px auto;
     padding: 0 10px;
-    transition: 1s;
+    transition: 1.5s;
     position: relative;
     padding-top: 170px;
 }
 
 .block {
-    transition: 1s;
+    transition: 1.5s;
 
 }
 
