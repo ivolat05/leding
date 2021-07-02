@@ -29,6 +29,7 @@ a {
 
 /*-----------block-----------*/
 .presentation {
+    will-change: transform;
     max-width: 1162px;
     font-size: 25px;
     line-height: 20px;
@@ -40,6 +41,7 @@ a {
 }
 
 .block {
+    will-change: transform;
     transition: 1.5s;
 
 }
